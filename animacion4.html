@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>ANIMACION 3 CSS</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .contenedor{
+            width: 400px;
+            height: 200px;
+            border: 1px solid black;
+            position: relative; /* para centrar el dis */
+            margin: 0 auto; /* para centrar el dis */
+            overflow: hidden;/* muestra solo lo interior */
+        }
+        .cuadrito{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute; /* permite mover el dis dentro del contenedor */
+            top: 50px;
+            left: 150px;
+            
+            animation: cuadrito 3s infinite linear;
+        }
+
+        @keyframes cuadrito{
+            from{
+                top: -100;
+                left: -100;
+
+            }
+            to{
+                top: 300px;
+                left: 700px;
+
+            }
+        }
+        .cuadrito img{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cuadrito"></div>
+        <img src="img/megamanx.gif" alt="">
+    
+
+
+    </div>
+    
+</body>
+</html>

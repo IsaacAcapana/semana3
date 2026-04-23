@@ -1,0 +1,251 @@
+<html>
+<head>
+    <title>ANIMACION 3 CSS</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .contenedor{
+            width: 400px;
+            height: 200px;
+            border: 1px solid black;
+            background-color: black;
+            position: relative; /* para centrar el dis */
+            margin: 0 auto; /* para centrar el dis */
+            overflow: hidden;/* muestra solo lo interior */
+        }
+        .cuadrito1{
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            position: absolute; /* permite mover el dis dentro del contenedor */
+            top: 50px;
+            left: 10px;           
+            animation: cuadrito1 4s infinite linear;
+
+        }
+
+        @keyframes cuadrito1{
+            from{
+                left: -100px;               
+            }
+            to{
+                left: 500;
+            }
+        }
+        .cuadrito2{
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            position: absolute; /* permite mover el dis dentro del contenedor */
+            top: 80px;
+            left: 10px;
+            
+            animation: cuadrito2 7s infinite linear;
+        }
+
+        @keyframes cuadrito2{
+            from{
+                left: -100px;               
+            }
+            to{
+                left: 500;
+            }
+        }
+        .cuadrito3{
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            position: absolute; /* permite mover el dis dentro del contenedor */
+            top: 175px;
+            left: 5px;
+            
+            animation: cuadrito3 6s infinite linear;
+        }
+
+        @keyframes cuadrito3{
+            from{
+                left: -100px;               
+            }
+            to{
+                left: 500;
+            }
+        }
+        .cuadrito4{
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            position: absolute; /* permite mover el dis dentro del contenedor */
+            top: 90px;
+            left: 16px;
+            
+            animation: cuadrito4 2s infinite linear;
+        }
+
+        @keyframes cuadrito4{
+            from{
+                left: -100px;               
+            }
+            to{
+                left: 500;
+            }
+        }
+        .cuadrito5{
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            position: absolute; /* permite mover el dis dentro del contenedor */
+            top: 108px;
+            left: 150px;
+            
+            animation: cuadrito5 9s infinite linear;
+        }
+
+        @keyframes cuadrito5{
+            from{
+                left: -100px;               
+            }
+            to{
+                left: 500;
+            }
+        }
+        .cuadrito6{
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            position: absolute; /* permite mover el dis dentro del contenedor */
+            top: 25px;
+            left: 76px;
+            
+            animation: cuadrito6 1s infinite linear;
+        }
+
+        @keyframes cuadrito6{
+            from{
+                left: -100px;               
+            }
+            to{
+                left: 500;
+            }
+        }
+        .cuadrito7{
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            position: absolute; /* permite mover el dis dentro del contenedor */
+            top: 150px;
+            left: 30px;
+            
+            animation: cuadrito7 3s infinite linear;
+        }
+
+        @keyframes cuadrito7{
+            from{
+                left: -100px;               
+            }
+            to{
+                left: 500;
+            }
+        }
+        .cuadrito8{
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            position: absolute; /* permite mover el dis dentro del contenedor */
+            top: 29px;
+            left: 16px;
+            
+            animation: cuadrito8 15s infinite linear;
+        }
+
+        @keyframes cuadrito8{
+            from{
+                left: -100px;               
+            }
+            to{
+                left: 500;
+            }
+        }
+        .cuadrito9{
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            position: absolute; /* permite mover el dis dentro del contenedor */
+            top: 67px;
+            left: 150px;
+            
+            animation: cuadrito9 5s infinite linear;
+        }
+
+        @keyframes cuadrito9{
+            from{
+                left: -100px;               
+            }
+            to{
+                left: 500;
+            }
+        }
+        .cuadrito10{
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            position: absolute; /* permite mover el dis dentro del contenedor */
+            top: 84px;
+            left: 50px;
+            
+            animation: cuadrito10 10s infinite linear;
+        }
+
+        @keyframes cuadrito10{
+            from{
+                left: -100px;               
+            }
+            to{
+                left: 500;
+            }
+        }
+        .cuadritoimg img{
+            width: 150px;
+            height: 180px;
+
+            position: relative;
+            top: 0px;
+            left: -15px;
+        }
+        .cuadritoimg img{
+            rotate: 5deg;
+            animation: duki 1s infinite alternate linear;
+        }
+        @keyframes duki{
+            from{
+                rotate: 5deg;
+            }
+            to{
+                rotate: 10deg;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cuadrito1"></div>
+        <div class="cuadrito2"></div>
+        <div class="cuadrito3"></div>
+        <div class="cuadrito5"></div>
+        <div class="cuadrito6"></div>
+        <div class="cuadrito7"></div>
+        <div class="cuadrito8"></div>
+        <div class="cuadrito9"></div>
+        <div class="cuadrito10"></div>
+        <div class="cuadritoimg">
+            <img src="img/duki-removebg-preview.png" alt="">
+        </div>
+        
+    
+
+
+    </div>
+    
+</body>
+</html>
